@@ -1,4 +1,8 @@
-var searchIndex = JSON.parse('{\
+var searchIndex = JSON.parse(
+  '{\
 "main":{"doc":"","t":[],"n":[],"q":[],"d":[],"i":[],"f":[],"p":[]}\
-}');
-if (window.initSearch) {window.initSearch(searchIndex)};
+}'
+);
+if (window.initSearch) {
+  window.initSearch(searchIndex);
+}
