@@ -23,8 +23,9 @@ func main() {
 	fmt.Println(e1)
 
 	fmt.Println(e1.pessoa.nome)
-	fmt.Println(e1.nome)
 	fmt.Println(e1.pessoa.sobrenome)
+
+	fmt.Println(e1.nome)
 	fmt.Println(e1.pessoa)
 	fmt.Println(e1.faculdade)
 }

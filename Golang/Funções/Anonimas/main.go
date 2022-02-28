@@ -14,7 +14,7 @@ func main() {
        }("Batata")
     */
     f := func(texto string) string {
-        return fmt.Sprintf("Recebi --> %s", texto)
+        return fmt.Sprintf("Recebi -> %s", texto)
     }("Texto")
     fmt.Println(f)
 }
