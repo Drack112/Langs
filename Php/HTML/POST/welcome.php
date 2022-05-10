@@ -9,20 +9,8 @@
 </head>
 
 <body>
-    <?php
-
-    declare(strict_types=1);
-
-    $x = $_GET["a"];
-    $y = $_GET["b"];
-
-    function soma(int $n1, int $n2): int
-    {
-        return $n1 + $n2;
-    };
-
-    echo "<h1>" . soma($x, $y) . "</h1>";
-    ?>
+    Welcome <?php echo $_POST["name"]; ?><br>
+    Your email address is: <?php echo $_POST["email"] ?>
 </body>
 
 </html>

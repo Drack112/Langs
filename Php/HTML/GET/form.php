@@ -5,23 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Test</title>
 </head>
 
 <body>
+    <form method="GET" action="valor.php">
+        Valor: <input type="number" name="v" />
+        <input type="submit" name="Calcular Raiz" />
+    </form>
     <?php
-
-    declare(strict_types=1);
-
-    $x = $_GET["a"];
-    $y = $_GET["b"];
-
-    function soma(int $n1, int $n2): int
-    {
-        return $n1 + $n2;
-    };
-
-    echo "<h1>" . soma($x, $y) . "</h1>";
+    echo "Hello PHP";
     ?>
 </body>
 

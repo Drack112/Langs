@@ -9,20 +9,11 @@
 </head>
 
 <body>
-    <?php
-
-    declare(strict_types=1);
-
-    $x = $_GET["a"];
-    $y = $_GET["b"];
-
-    function soma(int $n1, int $n2): int
-    {
-        return $n1 + $n2;
-    };
-
-    echo "<h1>" . soma($x, $y) . "</h1>";
-    ?>
+    <form action="welcome.php" method="POST">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="text" name="email"><br>
+        <input type="submit">
+    </form>
 </body>
 
 </html>

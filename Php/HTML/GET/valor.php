@@ -5,24 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Valor PHP</title>
 </head>
 
 <body>
     <?php
-
-    declare(strict_types=1);
-
-    $x = $_GET["a"];
-    $y = $_GET["b"];
-
-    function soma(int $n1, int $n2): int
-    {
-        return $n1 + $n2;
-    };
-
-    echo "<h1>" . soma($x, $y) . "</h1>";
+    $valor = $_GET["v"];
+    $raiz = sqrt($valor);
+    echo "<h1>{$raiz}</h1>";
     ?>
+    <a href="./form.php">Voltar</a>
 </body>
 
 </html>
