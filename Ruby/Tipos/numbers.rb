@@ -1,0 +1,5 @@
+puts 50.class
+
+puts 98253469536592356523925365239.class
+
+puts 1.5.class
