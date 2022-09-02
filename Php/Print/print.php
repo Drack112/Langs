@@ -1,3 +1,3 @@
 <?php
-print "PHP is fun!"
-?>
+
+echo "Hello World!";

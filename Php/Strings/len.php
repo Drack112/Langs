@@ -1,2 +1,3 @@
 <?php
-    echo strlen("Hello World!");
+
+echo strlen("Hello my Friend! :D");
